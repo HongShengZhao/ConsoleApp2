@@ -8,9 +8,5 @@ namespace ConsoleApp2
 {
     class Class1
     {
-        public Class1()
-        {
-
-        }
     }
 }
