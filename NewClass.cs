@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class Class1
+    class NewClass
     {
-        public Class1() { }
+        public NewClass() { }
 
-        public void Func1() { }
+        public void Func1() {
+            Console.WriteLine("当前写入一行");
+        }
     }
 }
