@@ -18,6 +18,9 @@ namespace ConsoleApp2
             Console.WriteLine("提交后增加了此函数");
             Console.WriteLine("暂存后增加了此行");
         }
-       
+        public void Func3()
+        {
+            //增加函数
+        }
     }
 }
