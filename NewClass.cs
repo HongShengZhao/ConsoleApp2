@@ -13,5 +13,11 @@ namespace ConsoleApp2
         public void Func1() {
             Console.WriteLine("当前写入一行");
         }
+        public void Func2()
+        {
+            Console.WriteLine("提交后增加了此函数");
+            Console.WriteLine("暂存后增加了此行");
+        }
+       
     }
 }
