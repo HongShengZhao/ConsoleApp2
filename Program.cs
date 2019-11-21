@@ -41,6 +41,8 @@ namespace ConsoleApp2
             
             Console.ReadKey();
             cancel.Cancel();
+            LanguageClass language = new LanguageClass();
+            language.Init();
             Console.ReadKey();
         }
     }
