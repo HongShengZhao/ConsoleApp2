@@ -22,10 +22,5 @@ namespace ConsoleApp2
         {
             //增加函数
         }
-        //分支后增加
-        public void Func5()
-        {
-
-        }
     }
 }
