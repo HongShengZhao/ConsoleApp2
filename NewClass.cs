@@ -34,10 +34,6 @@ namespace ConsoleApp2
         {
 
         }
-        //分支后增加
-        public void Func5()
-        {
-
-        }
+        
     }
 }
