@@ -22,5 +22,18 @@ namespace ConsoleApp2
         {
             //增加函数
         }
+        //新分支增加
+        public void Func4() { }
+
+        public void Func6()
+        {
+            //NewB继续增加
+        }
+        //分支后增加
+        public void Func5()
+        {
+
+        }
+        
     }
 }
