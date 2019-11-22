@@ -10,6 +10,19 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+           
+            //第一次添加
+            int i = 3;Console.WriteLine(i);
+
+            //kdkldsffdadsfdas,测试
+            
+          
+            LanguageClass language = new LanguageClass();
+            language.Init();
+            Console.ReadKey();
+        }
+        private void DebugTask()
+        {
             Test t1 = new Test();
             Test t2 = new Test();
             CancellationTokenSource cancel = new CancellationTokenSource();
@@ -33,17 +46,11 @@ namespace ConsoleApp2
 
                 }
                 Console.WriteLine("task2 finish.");
-            }, cancel.Token);
-            //第一次添加
-            int i = 3;Console.WriteLine(i);
-
-            //kdkldsffdadsfdas,测试
-            
-            Console.ReadKey();
+            }, cancel.Token);  Console.ReadKey();
             cancel.Cancel();
-            Console.ReadKey();
         }
     }
+
     class Test
     {
         private object _objLock;

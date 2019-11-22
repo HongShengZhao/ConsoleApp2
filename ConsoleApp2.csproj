@@ -58,6 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CNLanguage.cs" />
+    <Compile Include="ILanguage.cs" />
+    <Compile Include="LanguageClass.cs" />
     <Compile Include="NewClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
