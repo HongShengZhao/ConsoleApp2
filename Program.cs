@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Reflection;
+using System.ComponentModel;
 namespace ConsoleApp2
 {
     class Program
@@ -15,10 +17,10 @@ namespace ConsoleApp2
             int i = 3;Console.WriteLine(i);
 
             //kdkldsffdadsfdas,测试
-            
-          
-            LanguageClass language = new LanguageClass();
-            language.Init();
+
+            Assembly assembly = typeof(Program).Assembly;
+            ILanguage language = Activator.CreateInstance(typeof(CNLanguage)) as ILanguage;
+            language.SaidHello();
             Console.ReadKey();
         }
         private void DebugTask()
